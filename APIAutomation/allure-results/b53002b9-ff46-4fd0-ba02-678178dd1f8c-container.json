@@ -1,0 +1,1 @@
+{"uuid":"b53002b9-ff46-4fd0-ba02-678178dd1f8c","name":"batch10.APIAutomation.BaseApiTest.login","description":"","start":1660409518831,"stop":1660409522472,"children":["660e8ad6-ef08-4c1e-bbee-785f16ca1faa"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"","start":1660409518832,"stop":1660409522471}]}
