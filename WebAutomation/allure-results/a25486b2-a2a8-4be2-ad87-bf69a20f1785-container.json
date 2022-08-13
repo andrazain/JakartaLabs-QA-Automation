@@ -1,0 +1,1 @@
+{"uuid":"a25486b2-a2a8-4be2-ad87-bf69a20f1785","name":"batch10.WebAutomation.BaseWebTest.setUp","description":"","start":1660399113593,"stop":1660399117840,"children":["f95c2a14-a9c8-45da-8941-7fb9a4d4aa11"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1660399113594,"stop":1660399117838}]}

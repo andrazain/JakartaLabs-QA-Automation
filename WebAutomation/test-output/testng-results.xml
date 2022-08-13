@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T13:59:23Z" name="Default suite" finished-at="2022-08-13T13:59:29Z" duration-ms="6173">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T13:59:23Z" name="Default test" finished-at="2022-08-13T13:59:29Z" duration-ms="6173">
+      <class name="batch10.WebAutomation.WebTestTask4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:batch10.WebAutomation.WebTestTask4@207b8649]" started-at="2022-08-13T13:59:23Z" name="setUp" finished-at="2022-08-13T13:59:26Z" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutSuccessfully()[pri:0, instance:batch10.WebAutomation.WebTestTask4@207b8649]" started-at="2022-08-13T13:59:26Z" name="checkoutSuccessfully" finished-at="2022-08-13T13:59:29Z" duration-ms="2479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:batch10.WebAutomation.WebTestTask4@207b8649]" started-at="2022-08-13T13:59:29Z" name="tearDown" finished-at="2022-08-13T13:59:29Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- batch10.WebAutomation.WebTestTask4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
