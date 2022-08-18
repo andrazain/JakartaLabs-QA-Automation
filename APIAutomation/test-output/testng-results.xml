@@ -2,28 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-13T16:51:58Z" name="Default suite" finished-at="2022-08-13T16:52:03Z" duration-ms="4958">
+  <suite started-at="2022-08-15T20:10:55Z" name="Default suite" finished-at="2022-08-15T20:11:00Z" duration-ms="4733">
     <groups>
     </groups>
-    <test started-at="2022-08-13T16:51:58Z" name="Default test" finished-at="2022-08-13T16:52:03Z" duration-ms="4958">
+    <test started-at="2022-08-15T20:10:55Z" name="Default test" finished-at="2022-08-15T20:11:00Z" duration-ms="4733">
       <class name="batch10.APIAutomation.APITest">
-        <test-method is-config="true" signature="login()[pri:0, instance:batch10.APIAutomation.APITest@58496dc]" started-at="2022-08-13T16:51:58Z" name="login" finished-at="2022-08-13T16:52:02Z" duration-ms="3644" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="signIn()[pri:0, instance:batch10.APIAutomation.APITest@58496dc]" started-at="2022-08-13T16:52:02Z" name="signIn" finished-at="2022-08-13T16:52:03Z" duration-ms="1162" status="FAIL">
+        <test-method signature="signInWithFaker()[pri:0, instance:batch10.APIAutomation.APITest@76f7d241]" started-at="2022-08-15T20:10:55Z" name="signInWithFaker" finished-at="2022-08-15T20:11:00Z" duration-ms="4600" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<404> but was:<200>]]>
+              <![CDATA[expected [200] but found [422]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<404> but was:<200>
-at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-at batch10.APIAutomation.APITest.signIn(APITest.java:28)
+              <![CDATA[java.lang.AssertionError: expected [200] but found [422]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at batch10.APIAutomation.APITest.signInWithFaker(APITest.java:64)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,7 +51,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signIn -->
+        </test-method> <!-- signInWithFaker -->
       </class> <!-- batch10.APIAutomation.APITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

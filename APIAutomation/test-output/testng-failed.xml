@@ -5,8 +5,7 @@
     <classes>
       <class name="batch10.APIAutomation.APITest">
         <methods>
-          <include name="login"/>
-          <include name="signIn"/>
+          <include name="signInWithFaker"/>
         </methods>
       </class> <!-- batch10.APIAutomation.APITest -->
     </classes>
